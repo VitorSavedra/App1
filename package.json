@@ -1,0 +1,25 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "App1 - Teste AutoMobi.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorSavedra/App1.git"
+  },
+  "author": "Vitor Savedra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorSavedra/App1/issues"
+  },
+  "homepage": "https://github.com/VitorSavedra/App1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1",
+    "request": "^2.81.0"
+  }
+}

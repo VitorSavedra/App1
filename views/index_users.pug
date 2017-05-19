@@ -1,0 +1,18 @@
+html
+  head
+    title= title
+  body
+    h3= message
+
+    table 
+      tr
+        td ID
+        td Nome
+        td Idade
+        td Habilidade
+      for user in item
+        tr
+          td= user._id
+          td= user.name
+          td= user.age
+          td= user.skill
