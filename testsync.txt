@@ -1,2 +1,0 @@
-test sync aws
-test2 sync aws
