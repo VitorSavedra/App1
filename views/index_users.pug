@@ -1,18 +1,24 @@
+doctype html
 html
   head
+    style
+      include style.css
     title= title
   body
-    h3= message
+    center
+      h3= message
 
-    table 
-      tr
-        td ID
-        td Nome
-        td Idade
-        td Habilidade
-      for user in item
-        tr
-          td= user._id
-          td= user.name
-          td= user.age
-          td= user.skill
+      table
+        thead
+          tr
+            th ID
+            th Nome
+            th Idade
+            th Habilidade
+
+          for user in item
+            tr
+              td= user._id
+              td= user.name
+              td= user.age
+              td= user.skill
